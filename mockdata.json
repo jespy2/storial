@@ -1,0 +1,78 @@
+//mock data for testing app
+
+{
+  "books": [
+    {
+      "title": "Harry Potter",
+      "author": "JK Rowling",
+      "notes": "My owl recommended it",
+      "id": 1
+    },
+    {
+      "title": "Game of Thrones",
+      "author": "George RR Martin",
+      "notes": "Cersei said it was pretty funny",
+      "id": 2
+    },
+    {
+      "title": "Temeraire",
+      "author": "Naomi Novik",
+      "notes": "Dragons are neat!",
+      "id": 3
+    },
+    {
+      "title": "Mistborn",
+      "author": "Brandon Sanderson",
+      "notes": "Heavy metal kicks butt!",
+      "id": 4
+    },
+    {
+      "title": "Wheel of Time",
+      "author": "Robert Jordan",
+      "notes": "Yin Yang makes the world go 'round",
+      "id": 5
+    },
+    {
+      "title": "A Clockwork Orange",
+      "author": "Anthony Burgess",
+      "notes": "Understanding English is optional",
+      "id": 6
+    },
+    {
+      "title": "The Name of The Wind",
+      "author": "Patrick Rothfuss",
+      "notes": "This one is supposed to be a breeze to read",
+      "id": 7
+    },
+    {
+      "title": "The Stand",
+      "author": "Stephen King",
+      "notes": "A prophecy?",
+      "id": 8
+    },
+    {
+      "title": "Leviathan Wakes",
+      "author": "James SA Corey",
+      "notes": "Better than the show?",
+      "id": 9
+    },
+    {
+      "title": "The Martian",
+      "author": "Andy Weir",
+      "notes": "Sciencey",
+      "id": 10
+    },
+    {
+      "title": "Stranger In A Strange Land",
+      "author": "Robert Heinlein",
+      "notes": "The SF OG",
+      "id": 11
+    },
+    {
+      "title": "Some other book",
+      "author": "Writer Dude",
+      "notes": "notes about it",
+      "id": 12
+    }
+  ]
+}
