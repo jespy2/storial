@@ -1,4 +1,4 @@
-![Storial Logo](public/storial-logo.png)
+![Storial Logo](client/public/storial-logo.png)
 # Track Books You'd Like To Read 
 ## MVP
 
@@ -26,8 +26,6 @@ Once your dependencies are installed, you will need to open three terminals:
   1. **MongoDB** enter the following commands:
 
   - brew services start mongodb-community
-
-  - brew services start mongosh
 
   - mongo
 
