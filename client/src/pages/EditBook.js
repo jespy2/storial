@@ -47,7 +47,7 @@ export default function EditBook() {
   return (
     <div className="page-container">
       <main className="page-header-container">
-        <img src="/storial-logo.png" alt="Storial Logo" className="w-1/5" />
+        <img src="/storial-logo.png" alt="Storial Logo" className="header-logo" />
         <h1 className="page-header-title">
           edit {title}
         </h1>
@@ -109,10 +109,10 @@ export default function EditBook() {
       </form>}
 
       <section className="page-navbar">
-        <Link to="/books/list" className="m-10">
+        <Link to="/books/list" >
           <button className="page-btn">view library</button>
         </Link>
-        <Link to="/books/create" className="m-10">
+        <Link to="/books/create" >
           <button className="page-btn">quick add book</button>
         </Link>
       </section>

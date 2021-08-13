@@ -28,7 +28,7 @@ export default function AddBook() {
     <div className="page-container">
 
       <main className="page-header-container">
-        <img src="/storial-logo.png" alt="Storial Logo" className="w-1/5" />
+        <img src="/storial-logo.png" alt="Storial Logo" className="header-logo" />
         <h1 className="page-header-title">
           Your Library
         </h1>
@@ -79,11 +79,11 @@ export default function AddBook() {
       </form>
 
       <section className="page-navbar">
-        <Link to="/" className="m-10">
+        <Link to="/" >
           <button className="page-btn">home</button>
         </Link>
 
-        <Link to="/books/list" className="m-10">
+        <Link to="/books/list" >
           <button className="page-btn">view library</button>
         </Link>
       </section>

@@ -12,7 +12,7 @@ export default function BookList({ books }) {
   }
 
   return (
-    <div className="flex-grow overflow-auto h-80 rounded-md shadow-lg" >
+    <div className="flex-grow overflow-auto h-80 w-3/4 rounded-md shadow-lg" >
       <table className="relative w-full table ">
         <thead  >
           <tr>

@@ -16,10 +16,10 @@ export default function Library() {
   })
 
   return (
-    <div className="page-container">
+    <div className="home-container">
 
       <main className="page-header-container">
-        <img src="/storial-logo.png" alt="Storial Logo" className="w-1/5" />
+        <img src="/storial-logo.png" alt="Storial Logo" className="header-logo" />
         <h1 className="page-header-title">
           Your Library
         </h1>
@@ -29,12 +29,12 @@ export default function Library() {
       { books && <BookList books={books} />}
 
 
-      <section className="page-navbar">
-        <Link to="/" className="m-10">
+      <section className="page-navbar px-4 ">
+        <Link to="/" >
           <button className="page-btn">home</button>
         </Link>
 
-        <Link to="/books/create" className="m-10">
+        <Link to="/books/create" >
           <button className="page-btn">quick add book</button>
         </Link>
       </section>
