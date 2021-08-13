@@ -13,6 +13,7 @@ In the future, I'd like to add the following:
   - Sorting books by field
   - Check box that removes book from library *to-read view* to *have-read view*
   - Add proper modals with branded styling instead of using alerts
+  - Do a comprehensive accesability review and refactor
   - Add testing
 
 ### Tech Stack
